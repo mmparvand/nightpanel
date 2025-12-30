@@ -1,0 +1,20 @@
+{
+  "id": "example-panel",
+  "name": "Example Panel",
+  "category": "Panels",
+  "description": "Runs a demo nginx panel",
+  "requires": ["docker"],
+  "supportsOffline": true,
+  "fields": [
+    {"key":"webPort","label":"Web Port","type":"number","default":8443,"required":false},
+    {"key":"domain","label":"Domain","type":"text","default":"","required":false},
+    {"key":"adminUser","label":"Admin User","type":"text","default":"admin","required":false},
+    {"key":"adminPass","label":"Admin Password","type":"password","default":"AUTO","required":false}
+  ],
+  "outputs": [
+    {"key":"serviceUrl","label":"Service URL"},
+    {"key":"ports","label":"Ports"},
+    {"key":"adminUser","label":"Admin User"},
+    {"key":"adminPass","label":"Admin Password"}
+  ]
+}
