@@ -1,0 +1,10 @@
+{
+  "id": "docker",
+  "name": "Install Docker",
+  "category": "System",
+  "description": "Installs Docker engine via apt",
+  "requires": ["system-update"],
+  "supportsOffline": true,
+  "fields": [],
+  "outputs": []
+}

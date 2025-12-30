@@ -1,0 +1,10 @@
+{
+  "id": "system-update",
+  "name": "System Update",
+  "category": "System",
+  "description": "Update package lists and upgrade packages",
+  "requires": [],
+  "supportsOffline": true,
+  "fields": [],
+  "outputs": []
+}
